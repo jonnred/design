@@ -1,13 +1,19 @@
+:root{
+    --color1:#ccc;
+    --color2:#000
+}
 *{
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
 }
 .logo{
+    color: rgb(197, 158, 86);
 }
 .navContainer{
     display: flex;
     height: 30vh;
+    padding: 10px ;
     
 }
 .navContainer h3{
@@ -20,9 +26,10 @@
     justify-content: space-around;
 }
 #navHome{
-    background-image: url("./pictures/pexels-lukas-952353.jpg");
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url("./pictures/pexels-lukas-952353.jpg");
+    background-size: cover;
 }
-.navFilter{
-    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
-    
+nav a{
+    color: var(--color1);
+    text-decoration: none;
 }
