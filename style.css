@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo{
+}
+.navContainer{
+    display: flex;
+    height: 30vh;
+    
+}
+.navContainer h3{
+    flex-grow: 1;
+    
+}
+.navContainer nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+#navHome{
+    background-image: url("./pictures/pexels-lukas-952353.jpg");
+}
+.navFilter{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+    
+}
